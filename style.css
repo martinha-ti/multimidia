@@ -12,6 +12,8 @@ body {
   font-weight: bolder;
   text-align: center;
   padding: 15px;
+  float: left;
+  width: 100%;
 }
 
 .menu {
