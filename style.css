@@ -115,6 +115,8 @@ a {
     text-align: left;
     cursor: pointer;
     color: #ffffff;
+    height: 70px;
+    background-color: #ffffff;
   }
 
   .menu ul {
