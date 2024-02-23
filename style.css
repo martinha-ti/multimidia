@@ -86,3 +86,56 @@
       width: 100%;
     }
   }
+
+/* Adaptação do tamanho de fonte para telas menores */
+@media only screen and (max-width: 500px) {
+  body {
+    font-size: 14px;
+  }
+
+  /* Adaptação do tamanho de fonte para telas menores no .meio */
+  .meio p {
+    font-size: 16px;
+  }
+}
+
+/* Imagens responsivas */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilo para menu hamburguer em telas menores */
+.menu-hamburguer {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  /* Menu hamburguer visível em telas menores */
+  .menu ul {
+    display: none;
+  }
+
+  .menu-hamburguer {
+    display: block;
+    text-align: right;
+    cursor: pointer;
+  }
+
+  .menu ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+  }
+
+  .menu li {
+    width: 100%;
+  }
+
+  .menu li:hover {
+    background-color: #0099cc;
+    cursor: pointer;
+  }
+}
