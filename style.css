@@ -112,7 +112,7 @@ a {
 
   .menu-hamburguer {
     display: block;
-    text-align: right;
+    text-align: left;
     cursor: pointer;
     color: #ffffff;
   }
