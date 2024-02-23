@@ -107,7 +107,7 @@ a {
   }
 
   .menu ul {
-    /* display: none; */
+    display: none;
   }
 
   .menu-hamburguer {
@@ -119,7 +119,7 @@ a {
   .menu ul {
     display: flex;
     flex-direction: column;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     text-align: center;
   }
