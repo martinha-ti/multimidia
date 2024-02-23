@@ -107,7 +107,7 @@ a {
   }
 
   .menu ul {
-    display: none;
+    /* display: none; */
   }
 
   .menu-hamburguer {
